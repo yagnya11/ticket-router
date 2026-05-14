@@ -1,0 +1,74 @@
+# ----------------------
+# Python cache / build
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Bytecode / compiled files
+*.class
+
+# ----------------------
+# Virtual environments
+# ----------------------
+venv/
+.env/
+.env.*
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.local
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE / Editors
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# Coverage / testing
+# ----------------------
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# ----------------------
+# Python packaging
+# ----------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------
+# Jupyter notebooks
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Docker
+# ----------------------
+*.tar
+docker-compose.override.yml
+
+# ----------------------
+# MongoDB (local volume data)
+# ----------------------
+mongo-data/
