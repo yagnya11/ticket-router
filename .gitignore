@@ -72,3 +72,5 @@ docker-compose.override.yml
 # MongoDB (local volume data)
 # ----------------------
 mongo-data/
+
+structure
